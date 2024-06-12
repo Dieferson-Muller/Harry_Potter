@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: aliceblue;
+
+    
+}
+/* fundo de tela
+
+#background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 100vh;
+}
+
+#background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#background ::after {
+    content: '';
+
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: -o-linear-gradient( #4d4b4bs)
+.logo {
+    height: 100px;
+    width: 300spx;
+    margin-right: 12px ;
+    
+}
+*/
+
+.header {
+    display: flex;
+    flex-direction:initial;
+    align-items: center;
+    justify-content:center;
+    letter-spacing: 10px;
+}
+h1   {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div.lista {
+    margin-top: 10px;
+    padding: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.item {
+    padding: 10px;
+    text-align:center;
+    width: 300px;
+    border: 2 px solid #4d4b4b ;
+    border-radius: 5 px;
+    margin: 5px;
+    
+}
+
+div.item:hover {
+    background-color: #4d4b4b;
+    cursor: pointer;
+}
+div.item img {
+    width: 200px;
+
+}
